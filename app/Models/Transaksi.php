@@ -15,7 +15,7 @@ class Transaksi extends Model
 
     public $timestamps = false;
 
-    // 🔧 Tambahkan ini:
+
     protected $primaryKey = 'kode_toko';
-    public $incrementing = false; // Karena bukan auto-increment
+    public $incrementing = false; 
 }
